@@ -1,0 +1,121 @@
+
+.mod {
+  width: 100vw;
+  height: 211.11vw;
+}
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.primary {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.item-long {
+  width: 100vw;
+  height: 211.11vw;
+}
+.group {
+  position: absolute;
+  display: flex;
+  left: 5.56vw;
+  top: 24.72vw;
+  justify-content: center;
+  align-items: flex-start;
+  width: 88.89vw;
+  height: 55.56vw;
+}
+.empty {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden !important;
+  width: 88.89vw;
+  height: 55.56vw;
+  /* background-color: #75DF56; */
+  background-image: linear-gradient(
+    90deg,
+    rgba(137, 226, 95, 1) 0%,
+    rgba(73, 214, 66, 1) 137%
+  );
+  border-radius: 2.5vw;
+}
+.entry-pic-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 7.22vw;
+}
+.entry-pic {
+  width: 74.72vw;
+  height: 38.06vw;
+}
+
+
+
+
+
+
+.radial {
+  position: absolute;
+  filter: blur(25px);
+  opacity: 0.99;
+}
+
+.one {
+  border-radius: 100%;
+  width: 95%;
+  height: 85%;
+  background-color: #49D642;
+  left:1%;
+  top:2%;
+  animation: move-one 6s ease infinite;
+  transform:rotate(0) translate(100px) rotate(0); 
+}
+
+.two {
+  border-radius: 100%;
+  width: 70%;
+  height: 60%;
+  background-color: #8EE963;
+  bottom:3%;
+  left:8%; 
+  animation: move-two 10s ease infinite;
+  transform:rotate(0) translate(100px) rotate(0);
+}
+
+.three {
+  border-radius: 100%;
+  width: 60%;
+  height: 60%;
+  /* background-color: #BFE35F; */
+  background-color: #9bee4d;
+
+  bottom:2%;
+  right:5%;
+  animation: move-three 7s linear infinite;
+  transform:rotate(0) translate(100px) rotate(0);
+}
+
+@keyframes move-one {
+  100% {
+    transform:rotate(-1turn) translate(100px) rotate(1turn);
+  }
+}
+
+@keyframes move-two {
+  100% {
+    transform:rotate(1turn) translate(100px) rotate(-1turn);
+  }
+}
+
+@keyframes move-three {
+  100% {
+    transform:rotate(-1turn) translate(100px) rotate(1turn);
+  }
+}
