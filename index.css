@@ -85,7 +85,7 @@
   border-radius: 100%;
   width: 70%;
   height: 60%;
-  background-color: #73DE55;
+  background-color: #78df5b;
   bottom:3%;
   left:8%; 
   animation: move-two 10s ease infinite;
@@ -94,10 +94,15 @@
 
 .three {
   border-radius: 100%;
-  width: 60%;
-  height: 60%;
+  width: 75%;
+  height: 65%;
   /* background-color: #BFE35F; */
-  background-color: #9bee4d;
+  /* background-color: #9bee4d; */
+   background-image: linear-gradient(
+    90deg,
+    rgb(114, 227, 69) 0%,
+    rgba(155, 238, 77, 1) 100%
+  );
 
   bottom:2%;
   right:5%;
