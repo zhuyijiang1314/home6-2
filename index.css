@@ -65,6 +65,7 @@
   position: absolute;
   filter: blur(25px);
   opacity: 0.99;
+  overflow: hidden !important;
 }
 
 .one {
@@ -82,7 +83,7 @@
   border-radius: 100%;
   width: 70%;
   height: 60%;
-  background-color: #8EE963;
+  background-color: #73DE55;
   bottom:3%;
   left:8%; 
   animation: move-two 10s ease infinite;
