@@ -85,7 +85,7 @@
   border-radius: 100%;
   width: 70%;
   height: 60%;
-  background-color: #78df5b;
+  background-color: #8EE963;
   bottom:3%;
   left:8%; 
   animation: move-two 10s ease infinite;
@@ -97,12 +97,12 @@
   width: 75%;
   height: 65%;
   /* background-color: #BFE35F; */
-  /* background-color: #9bee4d; */
-   background-image: linear-gradient(
+  background-color: #A8F64F;
+   /* background-image: linear-gradient(
     90deg,
     rgb(104, 221, 58) 0%,
     rgb(136, 238, 77) 100%
-  );
+  ); */
 
   bottom:2%;
   right:5%;
