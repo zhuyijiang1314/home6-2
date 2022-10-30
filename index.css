@@ -65,7 +65,7 @@
 
 .radial {
   position: absolute;
-  filter: blur(26px);
+  filter: blur(25px);
   opacity: 0.99;
   overflow: hidden !important;
 }
