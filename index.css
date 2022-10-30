@@ -65,7 +65,7 @@
 
 .radial {
   position: absolute;
-  filter: blur(28px);
+  filter: blur(26px);
   opacity: 0.99;
   overflow: hidden !important;
 }
@@ -95,7 +95,7 @@
 .three {
   border-radius: 100%;
   width: 45vw;
-  height: 35vw;
+  height: 30vw;
   /* background-color: #BFE35F; */
   background-color: #A8F64F;
    /* background-image: linear-gradient(
@@ -122,13 +122,14 @@
 
 @keyframes move-one {
   50% {
-    transform:rotate(-0.5turn) translate(110px) rotate(0.5turn) scale(1.2);
+    transform:rotate(-0.7turn) translate(110px) rotate(0.5turn) scale(1.2);
     opacity: 0.8;
   }
   100% {
     transform:rotate(-1turn) translate(100px) rotate(1turn) scale(1);
     opacity: 1;
   }
+  
 }
 
 @keyframes move-two {
@@ -146,6 +147,7 @@
     transform:rotate(-1turn) translate(100px) rotate(1turn) scale(0.9);
     opacity: 1;
   }
+ 
   
 }
 @keyframes move-five {
