@@ -131,8 +131,8 @@
 
 @keyframes move-three {
   50% {
-    transform:rotate(-0.5turn) translate(130px) rotate(0.5turn) scale(1.2);
-    opacity: 0.9;
+    transform:rotate(-0.5turn) translate(130px) rotate(0.5turn) scale(1.1);
+    opacity: 0.8;
   }
   100% {
     transform:rotate(-1turn) translate(100px) rotate(1turn) scale(0.9);
